@@ -1,9 +1,8 @@
-export function countDown(n) {
-
-  if (n === 0) {
-    return 0
-  } else {
-    return n + countDown(n - 1);
-  }
-
+export function sumofdigits(num) {
+if (num < 10) {
+  return num;
+}else{
+  return (num % 10) + sumofdigits (Math.floor(num/10));
+}
+ 
 }
