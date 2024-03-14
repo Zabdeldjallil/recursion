@@ -1,4 +1,4 @@
-function power(b, exp) {
+export function power(b, exp) {
   if (exp === 0) {
       return 1;
   } else {
