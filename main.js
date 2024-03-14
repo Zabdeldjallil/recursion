@@ -1,3 +1,3 @@
-import { countDown } from "./helpers/index"
+import { power } from "./helpers/index"
 
-console.log(countDown(3))
+console.log(power(2 , 3 ));
