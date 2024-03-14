@@ -1,3 +1,3 @@
-import { power } from "./helpers/index"
+import { sumArray } from "./helpers/index"
 
-console.log(power(2 , 3 ));
+console.log(sumArray([1,2 [3,5,4]] ));
